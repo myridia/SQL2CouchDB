@@ -2,6 +2,7 @@
 Migrate Sql queried Tables into CouchDb Documents
 
 # Example
+’’’mysql
 SELECT 
 p.product_id
 ,p.model
@@ -15,3 +16,7 @@ p.product_id
 FROM product as p
 LEFT JOIN product_description AS d
 On p.product_id = d.product_id
+
+
+
+’’’
