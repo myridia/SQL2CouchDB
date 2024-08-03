@@ -20,3 +20,9 @@ On p.product_id = d.product_id
 
 
 ’’’
+
+#How to compile it
+```console
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+. "$HOME/.cargo/env"
+```
