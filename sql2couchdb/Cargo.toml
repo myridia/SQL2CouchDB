@@ -1,0 +1,8 @@
+[package]
+name = "sql2couchdb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#https://docs.rs/eframe/latest/eframe/
+eframe = "0.28.1" 
